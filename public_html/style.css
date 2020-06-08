@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun. 8, 2020, 4:23:53 p.m.
+    Author     : Arsheemahedi Shethwala
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+header{
+    background: white;
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header > h1{
+    color: black;
+    text-align: center;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result > p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.choices{
+    margin-top: 50px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+
+.choice{
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+#action-message{
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
